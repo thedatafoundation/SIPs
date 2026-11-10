@@ -1,16 +1,16 @@
 ---
 number: 'XXXXX' (update this part after PR creation)
-title: Title of SIP
+title: Title of DNP
 authors: First Author's Name (author1@example.org), Second Author's name (author2@example.org)
 sponsors: First Sponsor's Name (expert@example.org)
 created: (fill me in with today's date, YYYY-MM-DD)
 type: Standard/Ecosystem/Meta
 status: Draft
-supersedes: (optional - fill this in if the SIP supersedes a previous SIP)
-superseded-by: (optional - fill this in if the SIP is superseded by a 
-subsequent SIP)
-extends: (optional - fill this in if the SIP extends the design of a 
-previous SIP)
+supersedes: (optional - fill this in if the DNP supersedes a previous DNP)
+superseded-by: (optional - fill this in if the DNP is superseded by a 
+subsequent DNP)
+extends: (optional - fill this in if the DNP extends the design of a 
+previous DNP)
 ---
 
 ## Summary
@@ -44,7 +44,7 @@ Is there any new terminology introduced with this proposal?
 This section explains in detail the proposed changes and how they work. The 
 provided subsections help readers better understand and evaluate the proposal.
 
-The key words "MUST", "REQUIRED", ... in SIP
+The key words "MUST", "REQUIRED", ... in DNP
 documents are to be interpreted as described in [RFC
 2119](https://www.ietf.org/rfc/rfc2119.txt) and [RFC
 8174](https://www.ietf.org/rfc/rfc8174.txt).

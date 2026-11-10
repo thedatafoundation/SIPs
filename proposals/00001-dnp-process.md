@@ -1,6 +1,6 @@
 ---
 number: '00001'
-title: SIP Process
+title: DNP Process
 authors: Ramtin M. Seraj
 sponsors: Raul Martinez
 created: 2024-12-30
@@ -13,9 +13,9 @@ extends:
 
 ## Summary
 
-**What is a Story Improvement Proposal?** 
+**What is a Data Network Proposal?** 
 
-A SIP is a document that proposes standards, guidelines, and recommendations
+A DNP is a document that proposes standards, guidelines, and recommendations
  for the Story network and its broader ecosystem. It must include complete 
  rationale, context, and sufficient details for the proper implementation.
 
@@ -52,18 +52,18 @@ without altering meaning.
 - Performance improvements to the node software without impacting any other 
 nodes or users.
 
-### SIP Types
+### DNP Types
 
-Story Improvement Proposals (SIPs) fall into these categories:
+Data Network Proposals (DNPs) fall into these categories:
 
-- **Standard SIP**: A proposal that describes changes to the Story Network, 
+- **Standard DNP**: A proposal that describes changes to the Story Network, 
 including but not limited to blockchain architecture and operational 
 parameters, node software implementation details, and other major changes to 
 the core APIs and user interface. For example, a proposal in this category 
 can discuss changes to the block production details or node level networking 
 parameters.
 
-- **Ecosystem SIP:** A proposal describing application-level standards, 
+- **Ecosystem DNP:** A proposal describing application-level standards, 
 conventions and specifications that may affect applications, tools, and 
 services built on top of the Story network. These proposals outline 
 conventions, interfaces, and protocols that ecosystem participants can follow 
@@ -73,9 +73,9 @@ ecosystem applications that enhance the functionality and user experience of
 the Story network. For example, a proposal in this category can define what 
 method and events a non-fungible token contract should support.
 
-- **Meta SIP**: A proposal that describes or suggests changes to the SIP 
+- **Meta DNP**: A proposal that describes or suggests changes to the DNP 
 process, including its structure, lifecycle, and guidelines. For example, a 
-proposal in this category might suggest expanding SIPs into additional 
+proposal in this category might suggest expanding DNPs into additional 
 categories.
 
 ### Access Control
@@ -91,13 +91,13 @@ are granted two levels of access to prevent spam, scams, and unrelated posts.
 - `Maintainer`: Maintainers are community members who facilitate the process 
 by reviewing proposal states and guiding them through the pipeline. Any 
 proposal state change requires a majority vote from maintainers. 
-Monthly open-to-all meetings are held to review SIPs and allocate roles. 
+Monthly open-to-all meetings are held to review DNPs and allocate roles. 
 Through majority voting (2/3), maintainers can grant or revoke both contributor 
 and maintainer roles within the community.
 
-### SIP Lifecycle
+### DNP Lifecycle
 
-Every SIP starts as an Idea and follows the lifecycle as it progresses.
+Every DNP starts as an Idea and follows the lifecycle as it progresses.
 
 ```mermaid
 flowchart LR
@@ -139,16 +139,16 @@ flowchart LR
 
 #### Idea
 
-Every SIP begins as an idea shared with the community through [the Story 
+Every DNP begins as an idea shared with the community through [the Story 
 's community forum](https://forum.story.foundation/). Please don't 
 create any pull request at this stage. 
 After thorough discussion and gathering support, it can be converted 
-into a SIP pull request in draft. Before this conversion, each idea requires 
+into a DNP pull request in draft. Before this conversion, each idea requires 
 at least one sponsor. Sponsors can be any well-known community members who 
 either benefit from the proposal or have deep expertise in the subject matter.
 
 When an idea has received sufficient feedback and is ready to move into a 
-draft, it can be converted into a SIP draft pull request. Opening up PRs 
+draft, it can be converted into a DNP draft pull request. Opening up PRs 
 in this repo requires a "contributor" role. If an author of the proposal 
 does not already have a contributor role, the maintainers will add one 
 or more of the proposal's authors to the contributor list.
@@ -193,8 +193,8 @@ discovered after the fact.
 
 #### Implemented
 
-Once all relevant teams have completed development of the SIP's proposal, the 
-SIP moves to "Implemented" status.
+Once all relevant teams have completed development of the DNP's proposal, the 
+DNP moves to "Implemented" status.
 
 #### Released
 

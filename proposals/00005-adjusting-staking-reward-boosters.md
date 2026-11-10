@@ -13,7 +13,7 @@ extends:
 
 ## Summary
 
-This SIP propose increasing the reward boosts when community
+This DNP proposes increasing the reward boosts when community
  members decides to stake and secure the network for a longer 
  time windown. 
 
