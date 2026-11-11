@@ -13,7 +13,7 @@ extends:
 
 ## Summary
 
-This SIP propose adding a new event type to capture the staking reward 
+This DNP proposes adding a new event type to capture the staking reward 
 distribution. It helps off-chain tools to better track the rewards. 
 
 [forum discussion link](https://forum.story.foundation/t/emit-reward-distribution-events-with-validator-address/46)

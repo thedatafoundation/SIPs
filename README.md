@@ -1,19 +1,19 @@
-# Story Improvement Proposals (SIPs)
+# Data Network Proposals (DNPs)
 
-This repository is the home of all the Story Improvement 
-Proposals (SIPs), standards, guidelines and recommendations for 
+This repository is the home of all the Data Network 
+Proposals (DNPs), standards, guidelines and recommendations for 
 the Story network and its broader ecosystem. It enables the 
 community to propose and track improvements, 
-building the future of the Story and its ecosystem —one SIP at a 
+building the future of the Story and its ecosystem —one DNP at a 
 time.
 
-## How To Start A SIP
+## How To Start A DNP
 
-Well! A SIP doesn’t start from this repo, every SIP starts as an 
+Well! A DNP doesn’t start from this repo, every DNP starts as an 
 idea first shared with the community through [the Story's 
 community forum](https://forum.story.foundation/), and after 
 thorough 
 discussion and attracting support it can then be converted 
-int a SIP draft. please refer to 
-[SIP-00001](https://github.com/piplabs/SIPs/blob/main/proposals/00001-sip-process.md)
+int a DNP draft. please refer to 
+[DNP-00001](proposals/00001-dnp-process.md)
  for more details.

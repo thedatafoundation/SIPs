@@ -1,22 +1,22 @@
 {
-  "name": "story-improvement-proposals",
+  "name": "data-network-proposals",
   "version": "1.0.0",
-  "description": "Story IMprovement Documents (SIP) describe proposed and accepted changes to the Story protocol.",
+  "description": "Data Network Proposals (DNPs) describe proposed and accepted changes to the Data Network.",
   "main": "index.js",
   "scripts": {
     "lint": "ts-node .github/linter/index.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/piplabs/SIPs.git"
+    "url": "git+https://github.com/thedatafoundation/DNPs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/piplabs/SIPs/issues"
+    "url": "https://github.com/thedatafoundation/DNPs/issues"
   },
-  "homepage": "https://github.com/piplabs/SIPs#readme",
+  "homepage": "https://github.com/thedatafoundation/DNPs#readme",
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
     "markdownlint-cli2": "^0.6.0",

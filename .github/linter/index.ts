@@ -2,7 +2,7 @@ import markdownlint from "markdownlint"
 import {
   enforceHeaderStructure,
   enforceMetadataStructure,
-  metadataSipIsValid,
+  metadataDnpIsValid,
   metadataTitleIsValid,
   metadataAuthorsIsValid,
   metadataTypeIsValid,
@@ -119,7 +119,7 @@ async function main() {
     customRules: [
       enforceHeaderStructure,
       enforceMetadataStructure,
-      metadataSipIsValid,
+      metadataDnpIsValid,
       metadataTitleIsValid,
       metadataAuthorsIsValid,
       metadataTypeIsValid,

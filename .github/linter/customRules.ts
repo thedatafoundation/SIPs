@@ -124,7 +124,7 @@ const optionalMetadata = [
   "extends",
 ]
 
-export const metadataSipIsValid = {
+export const metadataDnpIsValid = {
   names: ["front-matter-has-number"],
   description: "Metadata `number` is a 5 digit numerical string",
   tags: ["front-matter"],
@@ -137,17 +137,17 @@ export const metadataSipIsValid = {
     const frontMatter: any = yaml.load(string)
     if (!frontMatter) return
 
-    const sip: string = frontMatter.number
-    if (!sip) return
+    const dnp: string = frontMatter.number
+    if (!dnp) return
 
-    if (isNaN(Number(sip))) {
+    if (isNaN(Number(dnp))) {
       onError({
         lineNumber: 1,
         detail: "Front matter `number` must be a numerical string",
       })
     }
 
-    if (sip.length !== 5) {
+    if (dnp.length !== 5) {
       onError({
         lineNumber: 1,
         detail: "Front matter `number` must be 5 digits",
